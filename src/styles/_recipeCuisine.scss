@@ -1,0 +1,47 @@
+@use './variables.scss' as *;
+
+.recipeCuisine{
+    margin: 5px;
+    
+    .recipewrapper{
+        margin-bottom: 10px;
+        background-color: $bg-color;
+    }
+    h3{
+        background-color: $brand-color;
+        padding: 10px;
+        color: white;
+        margin: 0;
+    }
+    .recipeList{
+        display: flex;
+        padding: 10px;
+    }
+    .recipeList:nth-child(odd){
+        background-color: #E9E9E9;
+    }
+    img{
+        border: solid 1px $menuBorder-color;
+    }
+    p{
+        padding: 5px 0 0 5px;
+    }
+    .cusineWrapper{
+        background-color: #F9F9F9;
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 480px;
+            min-width: 300px;
+            padding: 10px;
+            a{
+                width: 120px;
+                margin: 2px 0;
+                text-decoration: none;
+                color: black;
+            }
+        }
+            
+        
+    }
+}

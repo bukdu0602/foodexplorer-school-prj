@@ -1,0 +1,15 @@
+//reset
+@use "reset";
+
+//components
+@use "blog";
+@use "footer";
+@use "header";
+@use "recipeCuisine";
+@use "topMain";
+
+//responsive
+@use "responsive";
+
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;500;700&display=swap');

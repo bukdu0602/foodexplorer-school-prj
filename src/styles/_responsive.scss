@@ -1,0 +1,74 @@
+@media only screen and (min-width: 330px) {
+    .sLogo{
+        display: none;
+    }
+    .lLogo{
+        display: inline !important;
+    }
+  }
+
+  @media only screen and (min-width: 500px) {
+    #navMobile{
+        display: none;
+    }
+    #navDesktop{
+        display: block !important;
+    }
+    .ratioChangePics{
+        img{
+            aspect-ratio: 7/2.4;
+            object-fit: cover;
+        }
+    }
+  }
+
+  @media only screen and (min-width: 670px) {
+    .socialMedia{
+        display: block !important;
+    }
+    .ratioChangePics{
+        width: 100%;
+        img{
+            aspect-ratio: inherit;
+        }
+    }
+    #flexPics{
+        display: flex;
+    }
+  }
+  
+  @media only screen and (min-width: 770px) {
+    .searchInput{
+        display: none;
+    }
+    .searchInput2{
+        display: block !important;
+    }
+    #reset{
+        display: grid;
+        grid-template-columns: 4fr 1.3fr;
+        grid-template-areas: "topMain  recipeCuisine"
+                             "blog     recipeCuisine"
+                             "footer     footer";
+    }
+    .topMain{
+        grid-area: topMain;
+    }
+    .recipeCuisine{
+        grid-area: recipeCuisine;
+        .cusineWrapper{
+            div{
+                max-width: 350px;
+                min-width: 140px;
+            }
+            
+        }
+    }
+    .blog{
+        grid-area: blog;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    
+  }

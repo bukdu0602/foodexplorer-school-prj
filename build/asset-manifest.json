@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cb9cd741.css",
+    "main.js": "/static/js/main.771e8e23.js",
+    "static/media/ramen.jpg": "/static/media/ramen.be48a93e115dc551ce2b.jpg",
+    "static/media/mussel.jpg": "/static/media/mussel.d937c6597323131c5177.jpg",
+    "static/media/salad.jpg": "/static/media/salad.8fa450a6d6b3247e7cc1.jpg",
+    "static/media/pancake.jpg": "/static/media/pancake.1965b8e24e1bc26cd215.jpg",
+    "static/media/pasta.jpg": "/static/media/pasta.c8f579c4cb9e9526ab3b.jpg",
+    "static/media/mussel-small.jpg": "/static/media/mussel-small.71f9adb2d59cf89e13cb.jpg",
+    "static/media/bg.jpg": "/static/media/bg.9d9ad907b944d6bd2b73.jpg",
+    "static/media/twitter-brands.svg": "/static/media/twitter-brands.7b0966c673ac146ae16d.svg",
+    "index.html": "/index.html",
+    "static/media/google-brands.svg": "/static/media/google-brands.f6cd7341ed5b88c90402.svg",
+    "static/media/facebook-f-brands.svg": "/static/media/facebook-f-brands.8adca75361b744d17bbe.svg",
+    "main.cb9cd741.css.map": "/static/css/main.cb9cd741.css.map",
+    "main.771e8e23.js.map": "/static/js/main.771e8e23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb9cd741.css",
+    "static/js/main.771e8e23.js"
+  ]
+}
